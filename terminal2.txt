@@ -1,0 +1,34 @@
+Задание 2
+
+1. cd home/user/
+2. mkdir test3
+3. сd test3 ->
+   cat >> file4.txt
+    row1
+    row2 
+    row3
+    row4
+   cat >> file5.txt
+    row1
+    row2 
+    row3
+    row4
+   cat >> file6.txt
+    row1
+    row2 
+    row3
+    row4
+4. grep "row2" file5.txt
+5. grep -r "row" test3
+6. grep -c "row" file6.txt
+7. find test3 -name "file5.txt"
+8. find test3 -name "file5.txt" -delete
+9. echo "test" >> file4.txt
+10. sed -i 's/test/fail/g' file4.txt
+11. echo "test" >> file4.txt
+12. ps aux
+13. kill 666
+14. ping artsiomrusau.com
+15. ping -c 5 artsiomrusau.com
+16. curl -X GET https://petstore.swagger.io/v2/pet/findByStatus?status=available
+17. curl -X POST https://petstore.swagger.io/v2/user --data"id=44" --data"username=user2547"  
