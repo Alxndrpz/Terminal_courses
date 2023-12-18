@@ -1,0 +1,27 @@
+Задание 1
+
+1. cd /home/user
+2. pwd
+3. mkdir test1
+4. cd test1
+5. touch file1.txt, file2.txt, file3.txt
+6. ls -la
+7. cd ..
+8. mkdir test2
+9. rmdir test2
+10. cd test1 -> rm file2.txt
+11. mkdir test3 && touch file1.txt file2.txt
+12. rm -r test3
+13. mkdir test4
+14. cd test1 -> mv file1.txt ../test4/file1new.txt -> mv file3.txt ../test4/file3new.txt
+15. nano file1new.txt -- line1 -- line2 -- line3 -- ctrl x
+16. cat file1new.txt
+17. nano file3new.txt -> 
+line1 
+line2 
+line3 -> ctrl x
+18. cat file1new.txt file3new.txt
+19. vim file1new.txt
+row1 
+row2
+row3 -> esc :wq enter
